@@ -3,10 +3,10 @@
 ## Logistics
 
 * Meeting time and location:
-  * Lecture: Tuesday/Thursday, 10:40am - 11:30am, ET A210
-  * Lab: Tuesday/Thursday, 11:30am - 12:24pm, ET A210
+  * Lecture: Tuesday/Thursday, 10:40am - 11:30am, E&T A210
+  * Lab: Tuesday/Thursday, 11:30am - 12:24pm, E&T A210
 * Instructor: John Tran
-* Office Hours: Tuesday/Thursday, 8:30am - 10:30am, Kennedy Library
+* Office Hours: Tuesday/Thursday, 8:30am - 10:30am, E&T B10
 * Contact Information: johnjtran@icloud.com
 
 ## Course Information
@@ -15,24 +15,66 @@ Development of client-side web pages using hypertext markup language ([d][x]html
 
 ### Objectives
 
+Upon completion of **CS1220** students will be to:
+
+
 ### Prerequisites
 
-* Computer Literacy
+- Computer Literacy
 
-### Required Textbooks
+### Textbooks
 
-* Howe, Shay.  **Learn to Code HTML & CSS: Develop and Style Websites**.  New Riders, 2014. Purchase from [Amazon](https://read.amazon.com/kp/embed?asin=B00JVQX7V8&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_mKUAybXXMNHV9) or directly from [New Riders](http://www.peachpit.com/store/learn-to-code-html-and-css-develop-and-style-websites-9780321940520).
+- Duckett, John.  **Javascript & JQuery: Interactive Front-End Web Development**.  Wiley, 2014.  Purchase from [Amazon](https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647).
 
-* Simpson, Kyle.  You Don't Know JS: Up & Going. O'Reilly and Associates, 2017.  Download from [O'Reilly](http://shop.oreilly.com/product/0636920039303.do).
+- Duckett, John.  **HTML & CSS: Design and Build Website***.  Wiley, 2014.  Purchase from [Amazon](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189).
+
+- Howe, Shay.  **Learn to Code HTML & CSS: Develop and Style Websites**.  New Riders, 2014. Purchase from [Amazon](https://read.amazon.com/kp/embed?asin=B00JVQX7V8&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_mKUAybXXMNHV9) or directly from [New Riders](http://www.peachpit.com/store/learn-to-code-html-and-css-develop-and-style-websites-9780321940520) (Optional).
+
+- Simpson, Kyle.  You Don't Know JS: Up & Going. O'Reilly and Associates, 2017.  Download from [O'Reilly](http://shop.oreilly.com/product/0636920039303.do) (Optional).
 
 ## Schedule
 
+| Week | Date | Reading     | Topics |
+| ---- | ---  | ---         | ---    |
+| 1    | 1/24 | - | Introduction |
+| 1    | 1/26 | | |
+| 2    | 1/31 | | |
+| 2    | 2/2  | | |
+| 3    | 2/7  | | |
+| 3    | 2/9  | | |
+| 4    | 2/14 | | |
+| 4    | 2/16 | | |
+| 5    | 2/21 | | |
+| 5    | 2/23 | | |
+| 6    | 2/28 | | |
+| 6    | 3/2  | | |
+| 7    | 3/7  | | |
+| 7    | 3/9  | | |
+| 8    | 3/14 | | |
+| 8    | 3/16 | | |
+| 9    | 3/21 | | |
+| 9    | 3/13 | | |
+| 10   | 3/28 | | Spring Recess |
+| 10   | 3/30 | | Spring Recess |
+| 11   | 4/4  | | |
+| 11   | 4/6  | | |
+| 12   | 4/11 | | |
+| 12   | 4/13 | | |
+| 13   | 4/18 | | |
+| 13   | 4/20 | | |
+| 14   | 4/25 | | |
+| 14   | 4/27 | | |
+| 15   | 5/2  | | |
+| 15   | 5/4  | | |
+| 16   | 5/9  | | |
+| 16   | 5/11 | | |
+| *    | 5/16 | | Final Exam |
 
 The schedule is subject to change depending on the class dynamics.
 
 ## Evaluation
 
-* 50% Homework assignments
+* 50% Homework Assignments
 * 20% Midterm Exam
 * 20% Final Exam
 * 10% Class Participation
@@ -44,11 +86,13 @@ Four homework will be given, which should be done individually.  For the program
 #### Exams
 
 * Midterm: 7:00pm - 8:30 pm, xxx, covers chapters xxx.
-* Final Exam: 7:45pm - 9:45 pm, xxx, covers chapters xxx.## Schedule
+* Final Exam: 7:45pm - 9:45 pm, May 16, 2017 11:20am - 1:20pm, covers chapters xxx.
+
+## Schedule
 
 #### Class Participation
 
-Class participation is an important component of active learning.  Students are expected to attend class and participate in discussion.  Class participation contribution can make a difference between passing and failing final grade.
+Class participation is an important component of active learning.  Students are expected to attend class and participate in discussion.  Class participation contribution can make a difference between a passing and a failing final grade.
 
 ### Grading Metrics
 
