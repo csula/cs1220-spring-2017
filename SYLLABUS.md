@@ -6,7 +6,7 @@
   * Lecture: Tuesday/Thursday, 10:40am - 11:30am, E&T A210
   * Lab: Tuesday/Thursday, 11:30am - 12:24pm, E&T A210
 * Instructor: John Tran
-* Office Hours: Tuesday/Thursday, 8:30am - 10:30am, E&T B10
+* Office Hours: Tuesday/Thursday, 8:00am - 10:30am, E&T B10
 * Contact Information: johnjtran@icloud.com
 
 ## Course Information
@@ -17,6 +17,10 @@ Development of client-side web pages using hypertext markup language ([d][x]html
 
 Upon completion of **CS1220** students will be to:
 
+* Develop a website using structured HTML documents
+* Utilize cascading style sheets to enhance the Website
+* Enhance website experience using JavaScript
+* Explore other intermediary markup language/technology, e.g. markdown
 
 ### Prerequisites
 
@@ -24,51 +28,35 @@ Upon completion of **CS1220** students will be to:
 
 ### Textbooks
 
-- Duckett, John.  **Javascript & JQuery: Interactive Front-End Web Development**.  Wiley, 2014.  Purchase from [Amazon](https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647).
+- Duckett, John.  **HTML & CSS: Design and Build Website***.  Wiley, 2014.  Purchase from [Amazon](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189) (HTML/CSS).
 
-- Duckett, John.  **HTML & CSS: Design and Build Website***.  Wiley, 2014.  Purchase from [Amazon](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189).
+- Duckett, John.  **Javascript & JQuery: Interactive Front-End Web Development**.  Wiley, 2014.  Purchase from [Amazon](https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647) (JS).
 
 - Howe, Shay.  **Learn to Code HTML & CSS: Develop and Style Websites**.  New Riders, 2014. Purchase from [Amazon](https://read.amazon.com/kp/embed?asin=B00JVQX7V8&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_mKUAybXXMNHV9) or directly from [New Riders](http://www.peachpit.com/store/learn-to-code-html-and-css-develop-and-style-websites-9780321940520) (Optional).
 
-- Simpson, Kyle.  You Don't Know JS: Up & Going. O'Reilly and Associates, 2017.  Download from [O'Reilly](http://shop.oreilly.com/product/0636920039303.do) (Optional).
+- Simpson, Kyle.  **You Don't Know JS: Up & Going**. O'Reilly and Associates, 2017.  Download for free from [O'Reilly](http://shop.oreilly.com/product/0636920039303.do) (Optional).
 
 ## Schedule
 
-| Week | Date | Reading     | Topics |
-| ---- | ---  | ---         | ---    |
-| 1    | 1/24 | - | Introduction |
-| 1    | 1/26 | | |
-| 2    | 1/31 | | |
-| 2    | 2/2  | | |
-| 3    | 2/7  | | |
-| 3    | 2/9  | | |
-| 4    | 2/14 | | |
-| 4    | 2/16 | | |
-| 5    | 2/21 | | |
-| 5    | 2/23 | | |
-| 6    | 2/28 | | |
-| 6    | 3/2  | | |
-| 7    | 3/7  | | |
-| 7    | 3/9  | | |
-| 8    | 3/14 | | |
-| 8    | 3/16 | | |
-| 9    | 3/21 | | |
-| 9    | 3/13 | | |
-| 10   | 3/28 | | Spring Recess |
-| 10   | 3/30 | | Spring Recess |
-| 11   | 4/4  | | |
-| 11   | 4/6  | | |
-| 12   | 4/11 | | |
-| 12   | 4/13 | | |
-| 13   | 4/18 | | |
-| 13   | 4/20 | | |
-| 14   | 4/25 | | |
-| 14   | 4/27 | | |
-| 15   | 5/2  | | |
-| 15   | 5/4  | | |
-| 16   | 5/9  | | |
-| 16   | 5/11 | | |
-| *    | 5/16 | | Final Exam |
+| Week | Date       | Reading | Topics |
+| ---- | ---        | ---     | ---    |
+| 1    | 1/24, 1/26 | HTML/CSS Chapters 1, 2 | Introduction; Structure; Text |
+| 2    | 1/31, 2/2  | HTML/CSS Chapters 3, 4 | Lists; Links |
+| 3    | 2/7, 2/9   | HTML/CSS Chapters 5, 6, 7 | Images, Tables and Forms |
+| 4    | 2/14, 2/16 | HTML/CSS Chapters 8, 9 | Extra Markup; Multimedia |
+| 5    | 2/21, 2/23 | HTML/CSS Chapter 10 | CSS |
+| 6    | 2/28, 3/2  | HTML/CSS Chapters 11, 12, 13 | Color, Text and Boxes |
+| 7    | 3/7, 3/9   | HTML/CSS Chapters 14, 16 | List, Tables and Forms, Images |
+| 8    | 3/14, 3/16 | HTML/CSS Chapters 15, 17 | Layout and HTML5 Layout |
+| 9    | 3/21, 3/23 | HTML/CSS Chapter 17 | HTML5 (continued) and Midterm |
+| 10   | 3/28, 3/30 | - | Spring Recess |
+| 11   | 4/4, 4/6   | JS Chapters 1, 2 | Introduction to programming |
+| 12   | 4/11, 4/13 | JS Chapters 3, 4 | Functions, Models and Objects; Decisions and Loops |
+| 13   | 4/18, 4/20 | JS Chapters 5, 6 | Document Object Model; Events |
+| 14   | 4/25, 4/27 | JS Chapters 7, 8 | jQuery; AJAX and JSON |
+| 15   | 5/2, 5/4   | JS Chapters 9, 10 | API; Error handling & Debugging |
+| 16   | 5/9, 5/11  | JS Chapter 12, 13| Filtering, Sorting, Searching and Validation |
+| *    | 5/16       | - | Final Exam |
 
 The schedule is subject to change depending on the class dynamics.
 
@@ -81,14 +69,12 @@ The schedule is subject to change depending on the class dynamics.
 
 #### Homework
 
-Four homework will be given, which should be done individually.  For the programming part of the assignments, up to two students may collaborate; note that this information must be documented prior to submission.
+Four homework will be given, which should be done individually.  For the programming/coding part of the assignments, up to two students may collaborate; note that this information must be documented prior to submission.
 
 #### Exams
 
-* Midterm: 7:00pm - 8:30 pm, xxx, covers chapters xxx.
-* Final Exam: 7:45pm - 9:45 pm, May 16, 2017 11:20am - 1:20pm, covers chapters xxx.
-
-## Schedule
+* Midterm: 7:00pm - 8:30 pm, March 23, covers HTML/CSS chapters 1-17.
+* Final Exam: 7:45pm - 9:45 pm, May 16, 2017 11:20am - 1:20pm, covers JS chapters 1-13.
 
 #### Class Participation
 
