@@ -11,7 +11,7 @@
 
 ## Course Information
 
-Development of client-side web pages using hypertext markup language ([d][x]html), Cascading Style Sheets (CSS). Javascript, and computer graphics and animation software.
+Development of client-side web pages using hypertext markup language ([d][x]html), Cascading Style Sheets (CSS). Javascript and computer graphics.
 
 ### Objectives
 
