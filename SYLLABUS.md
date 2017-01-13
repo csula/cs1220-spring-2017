@@ -73,8 +73,8 @@ Four homework will be given, which should be done individually.  For the program
 
 #### Exams
 
-* Midterm: 7:00pm - 8:30 pm, March 23, covers HTML/CSS chapters 1-17.
-* Final Exam: 7:45pm - 9:45 pm, May 16, 2017 11:20am - 1:20pm, covers JS chapters 1-13.
+* Midterm: March 23, 2017 7:00pm - 8:30 pm; covers HTML/CSS chapters 1-17.
+* Final Exam: May 16, 2017 11:20am - 1:20pm; covers JS chapters 1-13.
 
 #### Class Participation
 
