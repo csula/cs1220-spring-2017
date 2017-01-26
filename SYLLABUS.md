@@ -62,7 +62,9 @@ The schedule is subject to change depending on the class dynamics.
 
 ## Evaluation
 
-* 50% Homework Assignments
+* 50% Programming assignments
+  - 4 Homework assignments
+	- 1 Course project
 * 20% Midterm Exam
 * 20% Final Exam
 * 10% Class Participation
@@ -71,9 +73,11 @@ The schedule is subject to change depending on the class dynamics.
 
 Four homework will be given, which should be done individually.  For the programming/coding part of the assignments, up to two students may collaborate; note that this information must be documented prior to submission.
 
+Completion of the course project is required for passing the class.
+
 #### Exams
 
-* Midterm: March 23, 2017 7:00pm - 8:30 pm; covers HTML/CSS chapters 1-17.
+* Midterm: March 23, 2017 10:40am - 11:40pm; covers HTML/CSS chapters 1-17.
 * Final Exam: May 16, 2017 11:20am - 1:20pm; covers JS chapters 1-13.
 
 #### Class Participation
