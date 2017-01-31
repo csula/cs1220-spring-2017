@@ -8,6 +8,6 @@ Important course news and announcements are posted here, so please check this `R
 
 ## Announcements
 
-- **1/30/2017** Discussion board is up.  Please visit [https://gitter.im/cs1220-spring-2017/discssion](https://gitter.im/cs1220-spring-2017/discussion) for real-time web development excitement.
+- **1/30/2017** Discussion board is up.  Please visit [https://gitter.im/cs1220-spring-2017/discussion](https://gitter.im/cs1220-spring-2017/discussion) for real-time web development excitement.
 
 
