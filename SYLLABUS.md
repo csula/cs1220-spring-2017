@@ -6,7 +6,7 @@
   * Lecture: Tuesday/Thursday, 10:40am - 11:30am, E&T A210
   * Lab: Tuesday/Thursday, 11:30am - 12:24pm, E&T A210
 * Instructor: John Tran
-* Office Hours: Tuesday/Thursday, 8:00am - 10:30am, E&T B10
+* Office Hours: Tuesday, Thursday 12:30pm - 2:30pm, JFK Library 2097
 * Contact Information: johnjtran@icloud.com
 
 ## Course Information
