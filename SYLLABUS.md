@@ -3,8 +3,8 @@
 ## Logistics
 
 * Meeting time and location:
-  * Lecture: Tuesday/Thursday, 10:40am - 11:30am, E&T A210
-  * Lab: Tuesday/Thursday, 11:30am - 12:24pm, E&T A210
+    * Lecture: Tuesday/Thursday, 10:40am - 11:30am, E&T A210
+    * Lab: Tuesday/Thursday, 11:30am - 12:24pm, E&T A210
 * Instructor: John Tran
 * Office Hours: Tuesday, Thursday 12:30pm - 2:30pm, JFK Library 2097
 * Contact Information: johnjtran@icloud.com
@@ -38,8 +38,8 @@ Upon completion of **CS1220** students will be to:
 
 ## Schedule
 
-| Week | Date       | Reading | Topics |
-| ---- | ---        | ---     | ---    |
+| Week | Date | Reading | Topics |
+| ---- | ---  | ---     | ---    |
 | 1    | 1/24, 1/26 | HTML/CSS Chapters 1, 2 | Introduction; Structure; Text |
 | 2    | 1/31, 2/2  | HTML/CSS Chapters 3, 4 | Lists; Links |
 | 3    | 2/7, 2/9   | HTML/CSS Chapters 5, 6, 7 | Images, Tables and Forms |
@@ -63,8 +63,8 @@ The schedule is subject to change depending on the class dynamics.
 ## Evaluation
 
 * 50% Programming assignments
-  - 4 Homework assignments
-	- 1 Course project
+    * 4 Homework assignments
+	  * 1 Course project
 * 20% Midterm Exam
 * 20% Final Exam
 * 10% Class Participation
