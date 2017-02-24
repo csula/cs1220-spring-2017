@@ -1,0 +1,35 @@
+<html>
+<body>
+
+<form action="http://server.com/submit/form"
+      method="POST">
+<p>User Name: <input type="text" name="UserName" size="15" maxlength="30" /></p>
+<p>Email: <input type="text" name="email" size="30" maxlength="50" /></p>
+<p>Password: <input type="password" name="password" size="10" maxlength="10" /></p>
+<p>Hair Color:</p> <!-- hair color is weird -->
+<ol>
+  <li><input type="radio" name="hair" value="black" />black</li>
+  <li><input type="radio" name="hair" value="blonde" />blonde</li>
+  <li><input type="radio" name="hair" value="none" checked="yes" />none</li>
+</ol>
+<p>Hobbies:</p>
+<input type="checkbox" name="hobbies" value="cooking">Cooking<br/>
+<input type="checkbox" name="hobbies" value="programming">Programming<br/>
+<input type="checkbox" name="hobbies" value="hunting">Hunting<br/>
+
+<p>
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</p>
+
+<!-- do a few exercises things:
+   1. add checkboxes of hobbies (you can have more than one hobby)
+   2. add a reset button
+   3. convert hobbies to pull-down menu/selection
+   4. multiple states (10) allow users to select more than one
+   5. implement a hidden field: name is "id" value is a random number
+ -->
+</form>
+
+</body>
+</html>
