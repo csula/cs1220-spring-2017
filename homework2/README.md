@@ -11,7 +11,7 @@ Put together a structured website of your choosing.  The website should have the
 * List and table modification using CSS
 * Structured and unstructured layout using CSS
 
-Note that you may use an existing CSS tool, e.g. Bootstrap or Materials
+The goal here is to take your homework 1 and retrofit it with bootstrap.  The website should be complete and that there should not be broken links, etc.
 
 ## Grading Scale/Criteria
 
