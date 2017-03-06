@@ -1,0 +1,29 @@
+/* modify h1 */
+
+h1 {
+  font-family: sans-serif;
+  font-size: 5em;
+}
+
+#resume-name {
+  color: #0000ff;
+}
+
+.red-color {
+  color: red;
+}
+
+h2 {
+  color: #11ff11;
+}
+
+h2.yellow {
+  color: yellow;
+}
+
+body {
+  margin: 50px;
+  background-color: #999999;
+  background-image: /* url("dragon_tattoo.jpg"); */
+  background-repeat: no-repeat;
+}
