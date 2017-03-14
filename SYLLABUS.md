@@ -48,7 +48,7 @@ Upon completion of **CS1220** students will be to:
 | 6    | 2/28, 3/2  | HTML/CSS Chapters 11, 12, 13 | Color, Text and Boxes |
 | 7    | 3/7, 3/9   | HTML/CSS Chapters 14, 16 | List, Tables and Forms, Images |
 | 8    | 3/14, 3/16 | HTML/CSS Chapters 15, 17 | Layout and HTML5 Layout |
-| 9    | 3/21, 3/23 | HTML/CSS Chapter 17 | HTML5 (continued) and Midterm |
+| 9    | 3/21, 3/23 | HTML/CSS Chapter 17 | CSS summarized and Midterm |
 | 10   | 3/28, 3/30 | - | Spring Recess |
 | 11   | 4/4, 4/6   | JS Chapters 1, 2 | Introduction to programming |
 | 12   | 4/11, 4/13 | JS Chapters 3, 4 | Functions, Models and Objects; Decisions and Loops |
@@ -64,7 +64,7 @@ The schedule is subject to change depending on the class dynamics.
 
 * 50% Programming assignments
     * 4 Homework assignments
-	  * 1 Course project
+    * 1 Course project
 * 20% Midterm Exam
 * 20% Final Exam
 * 10% Class Participation
