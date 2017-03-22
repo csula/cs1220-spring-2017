@@ -6,6 +6,13 @@ Please refer to the [syllabus](SYLLABUS.md) for more information on the administ
 
 Important course news and announcements are posted here, so please check this `README.md` file regularly.
 
+## Homework
+
+- [Homework 1](Homework1.md)
+- [Homework 2](Homework2.md)
+- [Homework 3](Homework3.md)
+- [Homework 4](Homework4.md)
+
 ## Announcements
 
 - **3/21/2017** Reminder that test this Wednesday will consist of two parts:
