@@ -8,7 +8,11 @@ Important course news and announcements are posted here, so please check this `R
 
 ## Announcements
 
-- **1/30/2017** Discussion board is up.  Please visit [https://gitter.im/cs1220-spring-2017/discussion](https://gitter.im/cs1220-spring-2017/discussion) for real-time web development excitement.
+- **3/21/2017** Reminder that test this Wednesday will consist of two parts:
+  - Part 1: 5 - 10 facts/short answer questions; you will need to complete this part first turn the exam back to the instructor; then proceed to Part 2.  For this part you can have **one study note** sheet.
+  - Part 2: 2 - 3 longer coding questions; you can do this on the computer and submit this to CSNS.  Make sure that you have a CSNS account.  This part is open book and open notes.  You can use the Internet to look for reference and information.
+
+A good way to prepare for the exam is to do the practice problems at the end of each chapter.
 
 - **3/6/2017** Please note that I have to travel conflict with lecture schedule this week.  You will need to watch the following videos:
 
@@ -18,3 +22,4 @@ Important course news and announcements are posted here, so please check this `R
 
    - Derek Banas [Bootstrap Tutorial](https://youtu.be/gqOEoUR5RHg).  This is a comprehensive tutorial and can be overwhelming.  So watch it slowly and digest it in small chunks...
 
+- **1/30/2017** Discussion board is up.  Please visit [https://gitter.im/cs1220-spring-2017/discussion](https://gitter.im/cs1220-spring-2017/discussion) for real-time web development excitement.
