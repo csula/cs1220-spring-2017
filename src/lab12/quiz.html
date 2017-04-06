@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Math Quiz</title>
+    <script>
+      function clickMe() {
+        var answer = document.getElementById( '0xff' );
+        if ( answer.value == a + b ) {
+          alert( 'correct!' );
+        } else {
+          alert( 'incorrect!');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Addition</h1>
+    <script>
+      var a = Math.floor( Math.random() * 10 + 1 );
+      var b = Math.floor( Math.random() * 10 + 1 );
+    </script>
+
+    What is the value of
+    <script>document.write(a);</script> +
+    <script>document.write(b);</script>?
+    <form>
+      <input type="text" size="3" name="answer" id="0xff">
+      <button onclick="clickMe()">submit</button>
+    </form>
+
+  </body>
+</html>
