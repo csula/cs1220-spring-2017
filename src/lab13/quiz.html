@@ -11,13 +11,15 @@
 
         // check each answer if any answer is wrong then quiz is F
         var quizResult = 1;
-        if (response1 != a + b) {
+        if (response1.value != a + b) {
+          var ab = a + b;
+          console.log('in addition check: [' + response1 +'] ' + '[' + ab + ']');
           quizResult = 0;
         }
-        if (response2 != a - b) {
+        if (response2.value != a - b) {
           quizResult = 0;
         }
-        if (response3 != a * b) {
+        if (response3.value != a * b) {
           quizResult = 0;
         }
 
