@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Math Quiz</title>
+    <script>
+      function clickMe() {
+
+        // extract answers from form
+        var response1 = document.getElementById( '0xff' ); // addition
+        var response2 = document.getElementById( '0xfe' ); // substraction
+        var response3 = document.getElementById( '0xfd' ); // multiplication
+
+        // check each answer if any answer is wrong then quiz is F
+        var quizResult = 1;
+        if (response1.value != a + b) {
+          var ab = a + b;
+          console.log('in addition check: [' + response1 +'] ' + '[' + ab + ']');
+          quizResult = 0;
+        }
+        if (response2.value != a - b) {
+          quizResult = 0;
+        }
+        if (response3.value != a * b) {
+          quizResult = 0;
+        }
+
+        // alert base on quiz result
+        if (quizResult == 1) {
+          alert( 'correct!' );
+        } else {
+          alert( 'incorrect!');
+        }
+      }
+    </script>
+  </head>
+  <body>
+
+    <h1 style="text-align: center">Super Hard Math Quiz</h1>
+
+    <script>
+      var min = 1;
+      var max = 10;
+      var a = Math.floor( Math.random() * max + min );
+      var b = Math.floor( Math.random() * max + min );
+    </script>
+
+    <form>
+      <!-- addition question -->
+      What is the value of
+      <script>document.write(a);</script> +
+      <script>document.write(b);</script>?
+      <input type="text" size="3" name="answer" id="0xff"> <br/>
+
+      <!-- substraction question -->
+      What is the value of
+      <script>document.write(a);</script> -
+      <script>document.write(b);</script>?
+      <input type="text" size="3" name="answer" id="0xfe"> <br/>
+
+      <!-- multiplication question -->
+      What is the value of
+      <script>document.write(a);</script> *
+      <script>document.write(b);</script>?
+      <input type="text" size="3" name="answer" id="0xfd"> <br/>
+
+      <br/>
+      <button onclick="clickMe()">submit</button>
+    </form>
+
+  </body>
+</html>
