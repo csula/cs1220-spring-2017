@@ -1,9 +1,11 @@
 # Homework 3
 
-* Due: 4/20 -- late homework not accepted
+* Due: 4/27 -- late homework not accepted
 * Up to two students may collaborate; please be prepared to discuss individual contributions
 
 ## Details
+
+You will update [Homework 1](Homework1.md) or [Homework 2](Homework2.md) to include at least 4 javascript modifications.  You can choose your own JS enhancements.  
 
 ## Grading Scale/Criteria
 
