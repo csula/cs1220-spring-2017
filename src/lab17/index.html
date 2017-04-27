@@ -1,16 +1,24 @@
 <html>
   <head>
+    <script>
+function breedAction()
+{
+  var breedDiv = document.getElementById('breed');
+  breedDiv.style.display = 'block';
+}
+    </script>
   </head>
   <body>
     <h1>Alhambra Pet Hospital</h1>
-    <div id="animal_type">
-      <select name="animal">
+    <div id="animal_type">Animal Type:
+      <select name="animal" onchange="breedAction();">
+        <option value="none"></option>
         <option value="dog">Dog</option>
         <option value="cat">Cat</option>
       </select>
     </div>
     <br/>
-    <div id="breed">
+    <div id="breed" style="display: none;">
       <div id="dog_breed">
         <select name="dog_type">
           <option>Terrier</option>
