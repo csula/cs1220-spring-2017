@@ -5,13 +5,24 @@ function breedAction()
 {
   var breedDiv = document.getElementById('breed');
   breedDiv.style.display = 'block';
+
+  var a = document.getElementById('animalType');
+  if (a.value == 'dog') {
+    document.getElementById('dog_breed').style.display = 'block';
+    document.getElementById('cat_breed').style.display = 'none';
+  } else {
+    document.getElementById('dog_breed').style.display = 'none';
+    document.getElementById('cat_breed').style.display = 'block';
+  }
+
+  // disable other
 }
     </script>
   </head>
   <body>
     <h1>Alhambra Pet Hospital</h1>
     <div id="animal_type">Animal Type:
-      <select name="animal" onchange="breedAction();">
+      <select id='animalType' name="animalType" onchange="breedAction();">
         <option value="none"></option>
         <option value="dog">Dog</option>
         <option value="cat">Cat</option>
@@ -19,19 +30,17 @@ function breedAction()
     </div>
     <br/>
     <div id="breed" style="display: none;">
-      <div id="dog_breed">
-        <select name="dog_type">
-          <option>Terrier</option>
-          <option>Pitbull</option>
-          <option>Other</option>
-        </select>
-        <select name="cat_type">
-          <option>Callico</option>
-          <option>Tabby</option>
-          <option>Other</option>
-        </select>
-        <input type="text" name="other">
-      </div>
+      <select id="dog_breed" name="dog_type">
+        <option>Terrier</option>
+        <option>Pitbull</option>
+        <option>Other</option>
+      </select>
+      <select id="cat_breed" name="cat_type">
+        <option>Callico</option>
+        <option>Tabby</option>
+        <option>Other</option>
+      </select>
+      <input id="other_breed" type="text" name="other" style="display: none">
     </div>
     <br/>
     <input type="submit" name="submit" />
