@@ -1,8 +1,7 @@
 <html>
   <head>
     <script>
-function breedAction()
-{
+function breedAction() {
   var breedDiv = document.getElementById('breed');
   breedDiv.style.display = 'block';
 
@@ -14,9 +13,17 @@ function breedAction()
     document.getElementById('dog_breed').style.display = 'none';
     document.getElementById('cat_breed').style.display = 'block';
   }
-
-  // disable other
 }
+
+function toggleOther() {
+  if (document.getElementById('dog_breed').value == 'Other' ||
+      document.getElementById('cat_breed').value == 'Other') {
+    document.getElementById('other_breed').style.display = 'block';
+  } else {
+    document.getElementById('other_breed').style.display = 'none';
+  }
+}
+
     </script>
   </head>
   <body>
@@ -30,12 +37,12 @@ function breedAction()
     </div>
     <br/>
     <div id="breed" style="display: none;">
-      <select id="dog_breed" name="dog_type">
+      <select id="dog_breed" name="dog_type" onchange="toggleOther();">
         <option>Terrier</option>
         <option>Pitbull</option>
         <option>Other</option>
       </select>
-      <select id="cat_breed" name="cat_type">
+      <select id="cat_breed" name="cat_type" onchange="toggleOther();">
         <option>Callico</option>
         <option>Tabby</option>
         <option>Other</option>
