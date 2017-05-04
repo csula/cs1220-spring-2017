@@ -5,6 +5,7 @@
 
 ## Details
 
+For this homework assignment you will integrate jQuery into your second homework assignment.
 
 ## Grading Scale/Criteria
 
