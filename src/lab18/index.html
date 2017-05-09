@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>rgb demo</title>
+  <style>
+.catbox {
+  height: 50px; width: 50px;
+  background-color: #aaaaaa;
+}
+.textbox { font-size: 18pt; font-family: sans-serif; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#red-slider" ).slider();
+  } );
+  </script>
+</head>
+<body>
+<div id="cat" class="catbox">
+</div>
+<table>
+  <tr>
+    <td class="textbox">R</td>
+    <td id="red-slider">slider</td>
+    <td>5<td>
+  </tr>
+  <tr>
+    <td class="textbox">G</td>
+    <td>slider</td>
+    <td>5<td>
+  </tr>
+  <tr>
+    <td class="textbox">B</td>
+    <td>slider</td>
+    <td>5<td>
+  </tr>
+</table>
+
+</body>
