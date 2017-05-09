@@ -15,6 +15,8 @@ Important course news and announcements are posted here, so please check this `R
 
 ## Announcements
 
+- **5/4/2017** Here is the link to John Resig's slides on [Introduction to jQuery](https://johnresig.com/apps/workshop/intro/)
+
 - **3/21/2017** Reminder that test this Wednesday will consist of two parts:
   - Part 1: 5 - 10 facts/short answer questions; you will need to complete this part first turn the exam back to the instructor; then proceed to Part 2.  For this part you can have **one study note** sheet.
   - Part 2: 2 - 3 longer coding questions; you can do this on the computer and submit this to CSNS.  Make sure that you have a CSNS account.  This part is open book and open notes.  You can use the Internet to look for reference and information.
