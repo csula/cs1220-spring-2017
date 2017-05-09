@@ -9,7 +9,12 @@
 .sliderbox {
   width: 200px;
 }
-.textbox { font-size: 18pt; font-family: sans-serif; }
+.textbox {
+  font-size: 18pt;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
   </style>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -41,12 +46,14 @@
 <script>
   $( function() {
     $( "#red-slider" ).slider({
+      create: function() {
+        $( "#red-value" ).text( 0 );
+      },
       slide: function( event, ui ) {
         $( "#red-value" ).text( ui.value );
       }
-    }
-    );
-  } );
+    });
+  });
 </script>
 
 </html>
