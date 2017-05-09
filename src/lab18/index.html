@@ -14,11 +14,6 @@
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#red-slider" ).slider();
-  } );
-  </script>
 </head>
 <body>
 <div id="cat" class="catbox">
@@ -26,8 +21,8 @@
 <table>
   <tr>
     <td class="textbox">R</td>
-    <td class="sliderbox"> <div id="red-slider"></div></td>
-    <td>5<td>
+    <td class="sliderbox"><div id="red-slider"></div></td>
+    <td><div id="red-value"></div><td>
   </tr>
   <tr>
     <td class="textbox">G</td>
@@ -42,3 +37,16 @@
 </table>
 
 </body>
+
+<script>
+  $( function() {
+    $( "#red-slider" ).slider({
+      slide: function( event, ui ) {
+        $( "#red-value" ).text( ui.value );
+      }
+    }
+    );
+  } );
+</script>
+
+</html>
