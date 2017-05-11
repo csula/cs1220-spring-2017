@@ -1,7 +1,7 @@
 # Final Exam Study Guide
 
-- Know basic Java Script examples, e.g. email validation, cascading menu
-  - One of the lab we did had a bug in it -- make sure that you can fix the bug
+- Know basic JavaScript examples, e.g. email validation, cascading menu
+  - One of the labs we did had a bug in it -- make sure that you can fix the bug
 - How to create a script and how to call it from HTML page
 - How to debug JavaScript errors, e.g. using `alert()` and Chrome's developer tools
 - How the DOM works

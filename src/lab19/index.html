@@ -48,6 +48,16 @@
 </body>
 
 <script>
+
+  function changeColor()
+  {
+    var g = $( "#green-value").text();
+    var r = $( "#red-value").text();
+    var b = $( "#blue-value").text();
+    var color = "rgb(" + r + "," + g + "," + b + ")";
+    $( ".catbox" ).css( "background-color", color);
+  }
+
   $(document).ready(
     function() {
       $( "#red-slider" ).slider({
@@ -58,11 +68,7 @@
         },
         slide: function( event, ui ) {
           $( "#red-value" ).text( ui.value );
-          var g = $( "#green-value").text();
-          var r = $( "#red-value").text();
-          var b = $( "#blue-value").text();
-          var color = "rgb(" + r + "," + g + "," + b + ")";
-          $( ".catbox" ).css( "background-color", color);
+          changeColor();
         }
       });
       $( "#green-slider" ).slider({
@@ -73,6 +79,7 @@
         },
         slide: function( event, ui ) {
           $( "#green-value" ).text( ui.value );
+          changeColor();
         }
       });
       $( "#blue-slider" ).slider({
@@ -83,6 +90,7 @@
         },
         slide: function( event, ui ) {
           $( "#blue-value" ).text( ui.value );
+          changeColor();
         }
       });
   });
