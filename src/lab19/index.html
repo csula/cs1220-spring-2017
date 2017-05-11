@@ -3,11 +3,12 @@
   <title>rgb demo</title>
   <style>
 .catbox {
-  height: 50px; width: 50px;
   background-color: #aaaaaa;
 }
 .sliderbox {
-  width: 200px;
+  width: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .textbox {
   font-size: 18pt;
@@ -15,28 +16,32 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.valuebox {
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
   </style>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
-<div id="cat" class="catbox"></div>
-<table>
+
+<table class="catbox">
   <tr>
     <td class="textbox">R</td>
     <td class="sliderbox"><div id="red-slider"></div></td>
-    <td><div id="red-value"></div><td>
+    <td class="valuebox"><div id="red-value"></div><td>
   </tr>
   <tr>
     <td class="textbox">G</td>
     <td class="sliderbox"><div id="green-slider"></div></td>
-    <td><div id="green-value"></div><td>
+    <td class="valuebox"><div id="green-value"></div><td>
   </tr>
   <tr>
     <td class="textbox">B</td>
     <td class="sliderbox"><div id="blue-slider"></div></td>
-    <td><div id="blue-value"></div><td>
+    <td class="valuebox"><div id="blue-value"></div><td>
   </tr>
 </table>
 
