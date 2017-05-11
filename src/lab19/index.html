@@ -3,7 +3,7 @@
   <title>rgb demo</title>
   <style>
 .catbox {
-  background-color: #aaaaaa;
+  background-color: rgb(200,200,200);
 }
 .sliderbox {
   width: 150px;
@@ -50,14 +50,41 @@
 <script>
   $(document).ready(
     function() {
-    $( "#red-slider" ).slider({
-      create: function() {
-        $( "#red-value" ).text( 0 );
-      },
-      slide: function( event, ui ) {
-        $( "#red-value" ).text( ui.value );
-      }
-    });
+      $( "#red-slider" ).slider({
+        min: 0,
+        max: 255,
+        create: function() {
+          $( "#red-value" ).text( 0 );
+        },
+        slide: function( event, ui ) {
+          $( "#red-value" ).text( ui.value );
+          var g = $( "#green-value").text();
+          var r = $( "#red-value").text();
+          var b = $( "#blue-value").text();
+          var color = "rgb(" + r + "," + g + "," + b + ")";
+          $( ".catbox" ).css( "background-color", color);
+        }
+      });
+      $( "#green-slider" ).slider({
+        min: 0,
+        max: 255,
+        create: function() {
+          $( "#green-value" ).text( 0 );
+        },
+        slide: function( event, ui ) {
+          $( "#green-value" ).text( ui.value );
+        }
+      });
+      $( "#blue-slider" ).slider({
+        min: 0,
+        max: 255,
+        create: function() {
+          $( "#blue-value" ).text( 0 );
+        },
+        slide: function( event, ui ) {
+          $( "#blue-value" ).text( ui.value );
+        }
+      });
   });
 </script>
 
